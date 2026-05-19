@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pirates of the Caribbean - At World's End</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 25px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #d1d5db;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .video-box {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      margin-bottom: 25px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    }
+
+    .video-box iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: 0.3s ease;
+      display: inline-block;
+    }
+
+    .download-btn {
+      background: #22c55e;
+      color: white;
+    }
+
+    .download-btn:hover {
+      background: #16a34a;
+      transform: scale(1.05);
+    }
+
+    .watch-btn {
+      background: #ef4444;
+      color: white;
+    }
+
+    .watch-btn:hover {
+      background: #dc2626;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 25px;
+      color: #9ca3af;
+      font-size: 0.9rem;
+    }
+
+    @media(max-width: 600px) {
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Pirates of the Caribbean: At World's End</h1>
+    <p>
+      Watch the complete tutorial guide for downloading and installing the game on your PC.
+      Follow all steps carefully for the best experience.
+    </p>
+
+    <div class="video-box">
+      <iframe 
+        src="https://www.youtube.com/embed/uKcM6Ce8azQ"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="buttons">
+      <a href="https://drive.google.com/file/d/1LY7AOIK9-zujbSX_DkI0g05crvkBmei4/view?usp=sharing" class="btn download-btn" target="_blank">
+        Download Game
+      </a>
+
+      <a href="https://youtu.be/uKcM6Ce8azQ" class="btn watch-btn" target="_blank">
+        Watch Tutorial
+      </a>
+    </div>
+
+    <footer>
+      © 2026 HSBJK | HimanshuTechVerse
+    </footer>
+  </div>
+</body>
+</html>
